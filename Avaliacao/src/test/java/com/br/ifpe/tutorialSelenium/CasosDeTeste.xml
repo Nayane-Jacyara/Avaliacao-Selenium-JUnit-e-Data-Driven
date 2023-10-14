@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	
+<procedimento num="0" desc="soma">
+	<caso num="0" desc="">
+		<numero1>2</numero1>
+		<numero2>3</numero2>
+		<resultado>5</resultado>
+	</caso>
+	
+	<caso num="1" desc="">
+		<numero1>-10</numero1>
+		<numero2>2</numero2>
+		<resultado>-8</resultado>
+	</caso>
+	
+		<caso num="2" desc="">
+		<numero1>-15</numero1>
+		<numero2>15</numero2>
+		<resultado>0</resultado>
+	</caso>
+		<caso num="3" desc="">
+		<numero1>-5</numero1>
+		<numero2>-5</numero2>
+		<resultado>-10</resultado>
+	</caso>
+	
+		<caso num="4" desc="">
+		<numero1>10000</numero1>
+		<numero2>40000</numero2>
+		<resultado>50000</resultado>
+	</caso>
+</procedimento>
+
+<procedimento num="1" desc="Exponencial">
+	<caso num="0" desc="">
+		<numero1>2</numero1>
+		<numero2>3</numero2>
+		<resultado>8</resultado>
+	</caso>
+		<caso num="1" desc="">
+		<numero1>2</numero1>
+		<numero2>0</numero2>
+		<resultado>1</resultado>
+	</caso>
+		<caso num="2" desc="">
+		<numero1>5</numero1>
+		<numero2>-2</numero2>
+		<resultado>0,04</resultado>
+	</caso>
+		<caso num="3" desc="">
+		<numero1>0</numero1>
+		<numero2>3</numero2>
+		<resultado>0</resultado>
+	</caso>
+		<caso num="5" desc="">
+		<numero1>100</numero1>
+		<numero2>3</numero2>
+		<resultado>1000000</resultado>
+	</caso>
+
+</procedimento>
+
+<procedimento num="2" desc="Fatorial">
+	<caso num="0" desc="">
+		<numero1>0</numero1>
+		<resultado>1</resultado>
+	</caso>
+		<caso num="1" desc="">
+		<numero1>5</numero1>
+		<resultado>120</resultado>
+	</caso>
+		<caso num="2" desc="">
+		<numero1>10</numero1>
+		<resultado>3628800</resultado>
+	</caso>
+		<caso num="3" desc="">
+		<numero1>-5</numero1>
+		<resultado>NaN</resultado>
+	</caso>
+		<caso num="5" desc="">
+		<numero1>20</numero1>
+		<resultado>2432902008176640000</resultado>
+	</caso>
+	
+
+</procedimento>
+
+<procedimento num="3" desc="Fatorial">
+	<caso num="0" desc="">
+		<numero1>1369</numero1>
+		<resultado>37</resultado>
+	</caso>
+		<caso num="1" desc="">
+		<numero1>6,25</numero1>
+		<resultado>2,5</resultado>
+	</caso>
+		<caso num="2" desc="">
+		<numero1>-4</numero1>
+		<resultado>NaN</resultado>
+	</caso>
+		<caso num="3" desc="">
+		<numero1>10000</numero1>
+		<resultado>100</resultado>
+	</caso>
+		<caso num="5" desc="">
+		<numero1>16</numero1>
+		<resultado>4</resultado>
+	</caso>
+	
+</procedimento>
+
+<procedimento num="1" desc="Regra de Tres">
+	<caso num="0" desc="">
+		<numero1>2</numero1>
+		<numero2>6</numero2>
+		<numero3>8</numero3>
+		<resultado>24</resultado>
+	</caso>
+		<caso num="1" desc="">
+		<numero1>12</numero1>
+		<numero2>6</numero2>
+		<numero3>18</numero3>
+		<resultado>9</resultado>
+	</caso>
+		<caso num="2" desc="">
+		<numero1>-3</numero1>
+		<numero2>9</numero2>
+		<numero3>-2</numero3>
+		<resultado>6</resultado>
+	</caso>
+		<caso num="3" desc="">
+		<numero1>4</numero1>
+		<numero2>3</numero2>
+		<numero3>5</numero3>
+		<resultado>3,75</resultado>
+	</caso>
+		<caso num="4" desc="">
+		<numero1>50</numero1>
+		<numero2>-40</numero2>
+		<numero3>80</numero3>
+		<resultado>-64</resultado>
+	</caso>
+
+</procedimento>
+</root>
